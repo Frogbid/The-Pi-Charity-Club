@@ -1324,15 +1324,15 @@ a {
 
 @keyframes moveTrailer {
     0% {
-        filter: drop-shadow(10px -22px 1px #ff00f1);
+        filter: drop-shadow(10px -22px 1px #af32a8);
         transform: translate(-3px)
     }
     50% {
-        filter: drop-shadow(-10px -18px 1px #ff00f1);
+        filter: drop-shadow(-10px -18px 1px #af32a8);
         transform: translate(3px)
     }
     to {
-        filter: drop-shadow(10px -22px 1px #ff00f1);
+        filter: drop-shadow(10px -22px 1px #af32a8);
         transform: translate(-3px)
     }
 }
