@@ -13,12 +13,16 @@
     <link href="css/app.9874624c.css" rel="stylesheet">
     <style>
         @font-face {
-            font-family: Jumble;
-            src: url('font/ROMAN SHINE.otf');
+            font-family: Space;
+            src: url('font/SpaceGrotesk.otf');
         }
 
         .mintTitle{
-            font-family: Jumble;
+            font-family: Space;
+        }
+
+        .titleFont{
+            font-family: Space;
         }
     </style>
 </head>
@@ -32,17 +36,18 @@
 <div id="app">
     <div class="page">
         <div class="viewContainer mint">
-            <div class="mintCard"><p class="title1 mintTitle" style="font-size: 70px;">THE PI CHARITY CLUB</p>
-                <p class="text howMa">PI Holders are official investors of school in Africa</p>
+            <div class="mintCard"><p class="title1 mintTitle" style="font-size: 70px; font-weight: bold">THE PI CHARITY CLUB</p>
+                <p class="mintTitle" style="font-size: 20px">PI Holders are official investors of school in Africa</p>
                 <div class="inline22">
-                    <button class="mintButton ">1</button>
-                    <button class="mintButton  selected">2</button>
+                    <button class="mintButton" style="border-radius: 50%;">-</button>
+                    <button class="mintButton1 selected">1</button>
+                    <button class="mintButton" style="border-radius: 50%;">+</button>
                 </div>
-                <p class="text nftPrice">Price : X.X ETH</p>
-                <div class="text nbNft">Minted : XXX / XXXX</div><!---->
-                <button class="connectButton">Connect wallet</button>
+                <p class="text nftPrice titleFont" style="font-size: 25px">Price : X.X ETH</p>
+                <div class="text nbNft titleFont" style="font-size: 25px">Minted : XXX / XXXX</div><!---->
+                <button class="connectButton titleFont" style="font-weight: bold">Connect wallet</button>
                 <br>
-                <button class="validateButton"> Mint</button><!----></div>
+                <button class="validateButton titleFont" style="font-weight: bold"> Mint</button><!----></div>
         </div>
         <img src="img/redlip-2@1x.f7b93a62.png" class="redlip22">
         <img src="img/coin-5@1x_cut.a0f51c8b.png" class="coin22"></div>
